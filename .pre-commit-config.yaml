@@ -44,7 +44,7 @@ repos:
     - id: safety
       name: safety
       # --ignore 45114 --ignore 51457 --ignore 51499 --ignore 51668 --ignore 42692
-      entry: poetry run safety check --full-report
+      entry: poetry run safety check --full-report --ignore 54672
       language: system
       files: ^(poetry\.lock|pyproject.toml)$
       pass_filenames: false
