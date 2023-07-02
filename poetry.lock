@@ -1074,6 +1074,20 @@ pyyaml = ">=5.1"
 virtualenv = ">=20.10.0"
 
 [[package]]
+name = "price-parser"
+version = "0.3.4"
+description = "Extract price and currency from a raw string"
+optional = false
+python-versions = "*"
+files = [
+    {file = "price-parser-0.3.4.tar.gz", hash = "sha256:8a286caa40fe28912f5e596bf09d72e085f80c4b2acaf5dd22aab8298e6ba731"},
+    {file = "price_parser-0.3.4-py2.py3-none-any.whl", hash = "sha256:99c89bd5b3e40ae0826dd1bec8392a82edab49d05b5add80d545c82fc8bd1633"},
+]
+
+[package.dependencies]
+attrs = ">=17.3.0"
+
+[[package]]
 name = "protego"
 version = "0.2.1"
 description = "Pure-Python robots.txt parser with support for modern conventions"
@@ -1963,4 +1977,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "95c29eca4833c2223711946c523aa7c7356f9b734de07145c309274374cea099"
+content-hash = "08b03f8a65587f303b36add7f976747cd30fb92d38b6e587ddc12452c86ab234"
